@@ -1,0 +1,30 @@
+{
+    "title": "Form Submissions",
+    "version": "1.0.0",
+    "name": "FormSubmissions",
+    "description": "Keeps a copy of every message sent through a Form widget, with attachments, so you can read and export them in the admin even when an email goes missing.",
+    "author": "ImpressPages community",
+    "options": [
+        {
+            "label": "Delete submissions after (days)",
+            "name": "keepDays",
+            "type": "Text",
+            "default": "365",
+            "note": "0 keeps them until you delete them. Keep only as long as you need, under your privacy policy."
+        },
+        {
+            "label": "Store the visitor's IP address",
+            "name": "storeIp",
+            "type": "Checkbox",
+            "default": 0,
+            "note": "Helps spot spam. It is personal data, so only turn it on if your privacy policy covers it."
+        },
+        {
+            "label": "Keep attachments",
+            "name": "keepFiles",
+            "type": "Checkbox",
+            "default": 1,
+            "note": "Files sent with a form are copied into the site's private files folder."
+        }
+    ]
+}
