@@ -34,7 +34,7 @@ $token = escAttr(ipSecurityToken());
             <a class="btn btn-default btn-sm" href="<?php echo escAttr(ipActionUrl(array('aa' => 'FormSubmissions.export'))); ?>"><i class="fa fa-download" aria-hidden="true"></i> Download all as CSV</a>
         </p>
 
-        <div class="table-responsive">
+        <div class="table-responsive" style="position: relative;">
             <table class="table table-hover">
                 <thead>
                 <tr>
